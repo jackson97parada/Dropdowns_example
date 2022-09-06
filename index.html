@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Dropdowns</title>
+  </head>
+  <body>
+    <!-- First Dropdowns -->
+    <section
+      class="d-flex gap-5 flex-wrap flex-lg-nowrap justify-content-center"
+    >
+      <div>
+        <ul
+          class="dropdown-menu dropdown-menu-macos mx-0 shadow"
+          style="width: 220px"
+        >
+          <li><a class="dropdown-item active" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul
+          class="dropdown-menu dropdown-menu-macos dropdown-menu-dark mx-0 border-0 shadow"
+          style="width: 220px"
+        >
+          <li><a class="dropdown-item active" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Divider -->
+    <div class="divider"></div>
+    <!-- Second Dropdowns -->
+    <section
+      class="d-flex gap-5 flex-wrap flex-lg-nowrap justify-content-center"
+    >
+      <!-- Card one -->
+      <div
+        class="dropdown-menu pt-0 mx-0 rounded-3 shadow overflow-hidden"
+        style="width: 280px"
+      >
+        <form class="p-2 mb-2 bg-light border-bottom">
+          <input
+            type="search"
+            class="form-control"
+            autocomplete="false"
+            placeholder="Type to filter..."
+          />
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-success rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Action
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-primary rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Another action
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-danger rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Something else here
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-info rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Separated link
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Card two -->
+      <div
+        class="dropdown-menu dropdown-menu-dark pt-0 mx-0 rounded-3 shadow overflow-hidden"
+        style="width: 280px"
+      >
+        <form class="p-2 mb-2 bg-dark border-bottom border-dark">
+          <input
+            type="search"
+            class="form-control form-control-dark"
+            autocomplete="false"
+            placeholder="Type to filter..."
+          />
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-success rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Action
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-primary rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Another action
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-danger rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Something else here
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+            >
+              <span
+                class="d-inline-block bg-info rounded-circle"
+                style="width: 0.5em; height: 0.5em"
+              ></span>
+              Separated link
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Divider -->
+    <div class="divider"></div>
+    <!-- Thirth Dropdowns -->
+    <section
+      class="d-flex gap-5 flex-wrap flex-lg-nowrap justify-content-center"
+    >
+      <!-- Card one -->
+      <ul class="dropdown-menu mx-0 shadow" style="width: 220px">
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-regular fa-paste"></i>
+            Documents
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-image"></i>
+            Photos
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-film"></i>
+            Movies
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-music"></i>
+            Music
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-chess-king"></i>
+            Games
+          </a>
+        </li>
+        <li><hr class="dropdown-divider" /></li>
+        <li>
+          <a
+            class="dropdown-item dropdown-item-danger d-flex gap-2 align-items-center"
+            href="#"
+          >
+            <i class="fa-regular fa-trash-can"></i>
+            Trash
+          </a>
+        </li>
+      </ul>
+      <!-- Card Two -->
+      <ul
+        class="dropdown-menu dropdown-menu-dark mx-0 shadow"
+        style="width: 220px"
+      >
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-regular fa-paste"></i>
+            Documents
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-image"></i>
+            Photos
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-film"></i>
+            Movies
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-music"></i>
+            Music
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+            <i class="fa-solid fa-chess-king"></i>
+            Games
+          </a>
+        </li>
+        <li><hr class="dropdown-divider" /></li>
+        <li>
+          <a
+            class="dropdown-item dropdown-item-danger d-flex gap-2 align-items-center"
+            href="#"
+          >
+            <i class="fa-regular fa-trash-can"></i>
+            Trash
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- Divider -->
+    <div class="divider"></div>
+    <!-- Fourth Dropdowns -->
+    <div class="my-4 py-5 flex-wrap flex-lg-nowrap overflow-auto">
+      <div
+        class="cal mx-auto p-2 dropdown-menu d-grid shadow"
+        style="max-width: 340px"
+      >
+        <div class="cal__month">
+          <button class="btn btn-cal">
+            <i class="fa-solid fa-arrow-left small"></i>
+          </button>
+          <strong class="cal__month-name">June</strong>
+          <button class="btn btn-cal">
+            <i class="fa-solid fa-arrow-right small"></i>
+          </button>
+        </div>
+        <div class="cal__weekdays text-muted">
+          <div class="cal__weekdays-name">Sun</div>
+          <div class="cal__weekdays-name">Mon</div>
+          <div class="cal__weekdays-name">Tue</div>
+          <div class="cal__weekdays-name">Wed</div>
+          <div class="cal__weekdays-name">Thu</div>
+          <div class="cal__weekdays-name">Fri</div>
+          <div class="cal__weekdays-name">Sat</div>
+        </div>
+        <div class="cal__days">
+          <button class="btn btn-cal" disabled type="button">30</button>
+          <button class="btn btn-cal" disabled type="button">31</button>
+          <button class="btn btn-cal" type="button">1</button>
+          <button class="btn btn-cal" type="button">2</button>
+          <button class="btn btn-cal" type="button">3</button>
+          <button class="btn btn-cal" type="button">4</button>
+          <button class="btn btn-cal" type="button">5</button>
+          <button class="btn btn-cal" type="button">6</button>
+          <button class="btn btn-cal" type="button">7</button>
+          <button class="btn btn-cal" type="button">8</button>
+          <button class="btn btn-cal" type="button">9</button>
+          <button class="btn btn-cal" type="button">10</button>
+          <button class="btn btn-cal" type="button">11</button>
+          <button class="btn btn-cal" type="button">12</button>
+          <button class="btn btn-cal" type="button">13</button>
+          <button class="btn btn-cal" type="button">14</button>
+          <button class="btn btn-cal" type="button">15</button>
+          <button class="btn btn-cal" type="button">16</button>
+          <button class="btn btn-cal" type="button">17</button>
+          <button class="btn btn-cal" type="button">18</button>
+          <button class="btn btn-cal" type="button">19</button>
+          <button class="btn btn-cal" type="button">20</button>
+          <button class="btn btn-cal" type="button">21</button>
+          <button class="btn btn-cal" type="button">22</button>
+          <button class="btn btn-cal" type="button">23</button>
+          <button class="btn btn-cal" type="button">24</button>
+          <button class="btn btn-cal" type="button">25</button>
+          <button class="btn btn-cal" type="button">26</button>
+          <button class="btn btn-cal" type="button">27</button>
+          <button class="btn btn-cal" type="button">28</button>
+          <button class="btn btn-cal" type="button">29</button>
+          <button class="btn btn-cal" type="button">30</button>
+          <button class="btn btn-cal" type="button">31</button>
+        </div>
+      </div>
+    </div>
+    <!-- Divider -->
+    <div class="divider"></div>
+    <!-- Fivth Dropdowns -->
+    <section>
+      <div
+        class="fith-dropdown dropdown-menu d-flex align-items-stretch p-3 rounded-3 shadow-lg"
+        id="dropdownMega"
+      >
+        <nav class="d-grid gap-2 col-8">
+          <a
+            href="#"
+            class="btn btn-hover-light d-flex align-items-center gap-3 py-2 px-3 lh-sm"
+          >
+            <i class="fa-solid fa-image fs-2"></i>
+            <div>
+              <strong class="d-block text-start">Features</strong>
+              <small>Take a tour through the product</small>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="btn btn-hover-light d-flex align-items-center gap-3 py-2 px-3 lh-sm"
+          >
+            <i class="fa-regular fa-circle-question fs-2"></i>
+            <div>
+              <strong class="d-block text-start">Support</strong>
+              <small>Get help from our support crew</small>
+            </div>
+          </a>
+        </nav>
+        <div class="col-4">...</div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
